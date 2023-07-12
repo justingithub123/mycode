@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Monthy example"""
+"""Monty Python example"""
 
 round = 0
 
