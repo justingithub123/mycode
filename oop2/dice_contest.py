@@ -42,7 +42,7 @@ def main():
             pass
         elif sum(swapper.get_dice()) > sum(loaded_dice.get_dice()):
             #print("Dice swapper wins!")
-            swapper_score+= 1
+            swapper_score += 1
         else:
             #print("Loaded dice wins!")
             loaded_dice_score += 1
