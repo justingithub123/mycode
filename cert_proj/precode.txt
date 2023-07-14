@@ -1,0 +1,15 @@
+Make a call to this API: http://api.open-notify.org/astros.json
+
+Make a request using the requests library.
+
+Tell users how many people in are space and what crafts are in space. 
+
+--What data types do I need? List? Dictionaries? Set?
+
+MVP:
+Ask user which craft they want to inspect.
+Allow users to choose.
+Show users who is on that craft.
+
+Wish list:
+Allow users to quit when they want. 
