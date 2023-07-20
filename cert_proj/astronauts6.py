@@ -8,7 +8,7 @@ def prompt_craft_choice():
     while True:
         craft_choice = input("Which craft would you like to see? Enter 1 for Craft 1 (ISS), 2 for Craft 2 (Tiangong), or 'q' to quit: ")
         if craft_choice.lower() == 'q':
-            print("Goodbye!")
+            print("Goodbye")
             exit()
         elif craft_choice == "1":
             return "ISS"
@@ -19,7 +19,7 @@ def prompt_craft_choice():
 
 def main():
     try:
-        astro = requests.get("http://api.open-notify.org/astros.json", timeout=5).json()
+        astro = requests.get("http://api.open-notify.org/astros.json", timeout=30).json()
         astronauts = astro["people"]
         num_astronauts = astro["number"]
     except requests.Timeout:
